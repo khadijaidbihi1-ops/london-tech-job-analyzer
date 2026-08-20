@@ -1,0 +1,27 @@
+skill,job_adverts,share_of_jobs
+Azure,42,3.55
+Python,40,3.38
+AWS,38,3.21
+SQL,34,2.87
+JavaScript,20,1.69
+Java,16,1.35
+Kubernetes,15,1.27
+GCP,12,1.01
+Terraform,12,1.01
+Excel,10,0.84
+Power BI,9,0.76
+Databricks,9,0.76
+Snowflake,9,0.76
+TypeScript,8,0.68
+Docker,8,0.68
+Git,8,0.68
+Airflow,4,0.34
+Spark,4,0.34
+MySQL,2,0.17
+SQL Server,2,0.17
+MongoDB,2,0.17
+PostgreSQL,2,0.17
+Tableau,2,0.17
+AWS Certification,1,0.08
+BigQuery,1,0.08
+dbt,1,0.08

@@ -1,0 +1,81 @@
+role_id,role,ons_occupation,competency_rank,competency,share,current_job_sample,companies_in_sample,median_salary_sample
+data_analyst,Data Analyst,data_analysts,1,"Business Operations, Process and Program Management",0.960108602826204,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,2,Professional and Interpersonal Competencies,0.9193888885281546,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,3,Information Technology and Programming,0.9086455982352434,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,4,Accounting and Financial Trading and Investment,0.6815268109745263,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,5,Science and Research,0.6266733381347805,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,6,"Data Engineering, Data Management and Business Analytics",0.612327861625476,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,7,Data Platforms and Databases,0.6033383670896456,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,8,"Data Science, Data Analytics",0.4814681124798952,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,9,Manufacturing and Fabrication,0.4272525199125122,20,10,47590.7
+data_analyst,Data Analyst,data_analysts,10,"Mathematics, Computational and Computer Sciences",0.3594203555160497,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,1,Information Technology and Programming,0.942904736081091,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,2,"Business Operations, Process and Program Management",0.8940099216678666,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,3,Professional and Interpersonal Competencies,0.7778566953147009,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,4,Data Platforms and Databases,0.5086913801905596,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,5,"UI, Frontend and Web Development",0.4767738482872349,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,6,Software Development Lifecycle and Processes,0.4562241831219255,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,7,Manufacturing and Fabrication,0.4378926626225608,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,8,Accounting and Financial Trading and Investment,0.4062652515940836,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,9,Electrical and Electronics Engineering,0.3988503767923717,20,10,47590.7
+software_developer,Software Developer,programmers_and_software_development_professionals,10,Engineering and Manufacturing,0.3785139024827978,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,1,Information Technology and Programming,0.9431350688848832,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,2,"Business Operations, Process and Program Management",0.9319727677522998,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,3,Professional and Interpersonal Competencies,0.8738075511938058,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,4,Engineering and Manufacturing,0.766562946813513,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,5,UX Design and Research,0.6372229537041654,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,6,Education and Training,0.5938172599948571,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,7,Marketing and Sales,0.5860174563018804,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,8,Design and Creative Media,0.4981727680075986,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,9,"Arts, Media and Creative Design",0.4336380221868986,20,10,47590.7
+web_developer,Web Developer,web_design_professionals,10,Software Development Lifecycle and Processes,0.3954730266492106,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,1,Information Technology and Programming,0.948873690285176,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,2,"Business Operations, Process and Program Management",0.9071665744811156,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,3,Professional and Interpersonal Competencies,0.8585565012494346,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,4,Risk and Safety,0.8067391430441047,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,5,Accounting and Financial Trading and Investment,0.7536338127106603,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,6,Cybersecurity and Information Security Technologies,0.5585939579260799,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,7,Education and Training,0.4986991193787267,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,8,"Legal, Regulatory Compliance and Governance",0.4375016594810414,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,9,Manufacturing and Fabrication,0.4344799203470236,20,10,47590.7
+cyber_security,Cyber Security,cyber_security_professionals,10,Construction and Built Environment,0.4147665821677451,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,1,"Business Operations, Process and Program Management",0.8998453049477397,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,2,Professional and Interpersonal Competencies,0.8160851931864554,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,3,Information Technology and Programming,0.5312872315092972,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,4,Accounting and Financial Trading and Investment,0.4281009307222561,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,5,Healthcare and Life Sciences,0.3900046300527166,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,6,Marketing and Sales,0.3580984065460387,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,7,Risk and Safety,0.3204395786236963,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,8,"Recruitment, Payroll and Employee Performance",0.289917959220534,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,9,Manufacturing and Fabrication,0.2860979883986851,20,10,47590.7
+it_support,IT Support,it_user_support_technicians,10,Organizational Development,0.2778080485189363,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,1,"Business Operations, Process and Program Management",0.90429248003648,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,2,Professional and Interpersonal Competencies,0.8808961108203964,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,3,Information Technology and Programming,0.8321008300750707,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,4,Marketing and Sales,0.5137365703438361,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,5,Digital Marketing,0.4177384233259258,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,6,Accounting and Financial Trading and Investment,0.4167094368055151,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,7,Manufacturing and Fabrication,0.3463291790377234,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,8,Healthcare and Life Sciences,0.3009490719013395,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,9,Digital Media Production,0.2878361257518133,20,10,47590.7
+database_administrator,Database Administrator,database_administrators_and_web_content_technicians,10,"Recruitment, Payroll and Employee Performance",0.2634001176897608,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,1,Information Technology and Programming,0.953438437963032,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,2,"Business Operations, Process and Program Management",0.910240045708274,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,3,Professional and Interpersonal Competencies,0.7967419113071229,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,4,Manufacturing and Fabrication,0.6378026584750797,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,5,Networking,0.6159516050410927,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,6,Construction and Built Environment,0.6137640687895538,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,7,Risk and Safety,0.5724157615582276,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,8,Electrical and Electronics Engineering,0.501562963625449,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,9,Telecommunication,0.4788458806327872,20,10,47590.7
+network_professional,Network Professional,it_network_professionals,10,Networking and Cybersecurity,0.4486147561715054,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",1,"Business Operations, Process and Program Management",0.9322230541459184,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",2,Information Technology and Programming,0.9320126717503658,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",3,Professional and Interpersonal Competencies,0.8155344339575779,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",4,Manufacturing and Fabrication,0.5606217076682791,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",5,Engineering and Manufacturing,0.539919951348353,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",6,Accounting and Financial Trading and Investment,0.5230296313573244,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",7,Risk and Safety,0.4839719918116179,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",8,Construction and Built Environment,0.4712951337048364,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",9,Data Platforms and Databases,0.4430473735477614,20,10,47590.7
+it_business_analyst,IT Business Analyst,"it_business_analysts,_architects_and_systems_designers",10,"Legal, Regulatory Compliance and Governance",0.3659084547911253,20,10,47590.7

@@ -1,0 +1,76 @@
+standard_role,skill,job_adverts,role_job_count,share_of_role_jobs
+Business Analyst,Excel,6,149,4.03
+Business Analyst,Power BI,2,149,1.34
+Cloud Engineer,Azure,15,95,15.79
+Cloud Engineer,AWS,14,95,14.74
+Cloud Engineer,Terraform,7,95,7.37
+Cloud Engineer,GCP,5,95,5.26
+Cloud Engineer,Kubernetes,4,95,4.21
+Cloud Engineer,Git,3,95,3.16
+Cloud Engineer,Python,3,95,3.16
+Cloud Engineer,Docker,2,95,2.11
+Cloud Engineer,JavaScript,1,95,1.05
+Cyber Security Engineer,AWS,3,31,9.68
+Cyber Security Engineer,Azure,2,31,6.45
+Cyber Security Engineer,AWS Certification,1,31,3.23
+Cyber Security Engineer,JavaScript,1,31,3.23
+Cyber Security Engineer,Kubernetes,1,31,3.23
+Cyber Security Engineer,Terraform,1,31,3.23
+Cyber Security Engineer,TypeScript,1,31,3.23
+Data Analyst,SQL,7,147,4.76
+Data Analyst,Power BI,6,147,4.08
+Data Analyst,Excel,4,147,2.72
+Data Analyst,Python,3,147,2.04
+Data Analyst,Tableau,2,147,1.36
+Data Analyst,Azure,1,147,0.68
+Data Engineer,SQL,15,152,9.87
+Data Engineer,Azure,13,152,8.55
+Data Engineer,Python,12,152,7.89
+Data Engineer,Databricks,9,152,5.92
+Data Engineer,Snowflake,9,152,5.92
+Data Engineer,AWS,8,152,5.26
+Data Engineer,Airflow,4,152,2.63
+Data Engineer,GCP,4,152,2.63
+Data Engineer,Spark,3,152,1.97
+Data Engineer,BigQuery,1,152,0.66
+Data Engineer,Git,1,152,0.66
+Data Engineer,Power BI,1,152,0.66
+Data Engineer,Terraform,1,152,0.66
+Data Engineer,TypeScript,1,152,0.66
+Data Engineer,dbt,1,152,0.66
+Data Scientist,Python,6,149,4.03
+Data Scientist,SQL,4,149,2.68
+Data Scientist,Java,1,149,0.67
+Data Scientist,JavaScript,1,149,0.67
+DevOps Engineer,AWS,7,25,28.0
+DevOps Engineer,Azure,6,25,24.0
+DevOps Engineer,Kubernetes,4,25,16.0
+DevOps Engineer,Terraform,3,25,12.0
+DevOps Engineer,GCP,2,25,8.0
+DevOps Engineer,Git,1,25,4.0
+Python Developer,Python,1,1,100.0
+Software Engineer,Python,13,182,7.14
+Software Engineer,Java,8,182,4.4
+Software Engineer,SQL,8,182,4.4
+Software Engineer,JavaScript,6,182,3.3
+Software Engineer,AWS,5,182,2.75
+Software Engineer,Docker,4,182,2.2
+Software Engineer,Kubernetes,4,182,2.2
+Software Engineer,TypeScript,4,182,2.2
+Software Engineer,Azure,3,182,1.65
+Software Engineer,MongoDB,2,182,1.1
+Software Engineer,PostgreSQL,2,182,1.1
+Software Engineer,SQL Server,2,182,1.1
+Software Engineer,Git,1,182,0.55
+Software Engineer,Spark,1,182,0.55
+Web Developer,JavaScript,11,119,9.24
+Web Developer,Java,7,119,5.88
+Web Developer,Azure,2,119,1.68
+Web Developer,Docker,2,119,1.68
+Web Developer,Git,2,119,1.68
+Web Developer,Kubernetes,2,119,1.68
+Web Developer,MySQL,2,119,1.68
+Web Developer,Python,2,119,1.68
+Web Developer,TypeScript,2,119,1.68
+Web Developer,AWS,1,119,0.84
+Web Developer,GCP,1,119,0.84

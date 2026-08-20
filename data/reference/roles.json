@@ -1,0 +1,37 @@
+{
+  "Data & Analytics": [
+    "Data Analyst",
+    "Junior Data Analyst",
+    "Senior Data Analyst",
+    "Business Intelligence Analyst",
+    "BI Developer",
+    "Business Analyst",
+    "Product Analyst",
+    "Financial Data Analyst",
+    "Risk Data Analyst"
+  ],
+  "Data Science & AI": [
+    "Data Scientist",
+    "Junior Data Scientist",
+    "Machine Learning Engineer",
+    "AI Engineer"
+  ],
+  "Data Engineering": [
+    "Data Engineer",
+    "Analytics Engineer",
+    "Cloud Data Engineer"
+  ],
+  "Software Development": [
+    "Software Engineer",
+    "Python Developer",
+    "Web Developer"
+  ],
+  "Cloud & Infrastructure": [
+    "Cloud Engineer",
+    "DevOps Engineer"
+  ],
+  "Cybersecurity": [
+    "Cyber Security Analyst",
+    "Cyber Security Engineer"
+  ]
+}

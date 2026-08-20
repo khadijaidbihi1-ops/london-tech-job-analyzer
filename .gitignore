@@ -1,0 +1,23 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Raw API pulls are reproducible and should not be committed
+data/raw/*.csv
+
+# Local logs
+*.log

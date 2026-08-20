@@ -1,0 +1,7 @@
+pandas>=2.2,<3
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+pytest>=8,<9
+streamlit>=1.62,<2
+plotly>=6,<7
+openpyxl>=3.1,<4
