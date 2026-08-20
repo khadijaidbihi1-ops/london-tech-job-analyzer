@@ -2,6 +2,13 @@
 
 An end-to-end Python data product for exploring London's technology labour market. The project collects live job adverts from the Adzuna API, cleans and normalises them, analyses salaries and seniority, extracts technical skill signals, stores monthly history, and exposes the results through an interactive Streamlit dashboard.
 
+## Data sources
+
+- **The Adzuna API** — current London vacancy and salary data used for the market analysis: https://www.adzuna.co.uk/
+- **Office for National Statistics (ONS)** — supporting reference data used for labour-market/skills context.
+
+The public dashboard focuses on aggregate analysis. It intentionally does not republish individual Adzuna job adverts.
+
 ## What the project does
 
 - Collects London job adverts across core technology roles from the Adzuna API.
@@ -28,7 +35,7 @@ The Streamlit application includes:
 - Skills intelligence
 - Career Advisor / skill-gap view
 - Hiring activity
-- Filterable job explorer
+- Aggregate role-level data coverage table for the public portfolio version
 - Time-period filtering
 - Data-quality and methodology notes
 
@@ -207,6 +214,10 @@ Python · pandas · requests · Streamlit · Plotly · pytest · GitHub Actions 
 - Seniority and role normalisation are rule-based and therefore imperfect.
 - Historical trend analysis becomes more meaningful only after multiple monthly snapshots have accumulated.
 
-## Responsible use
+## Data source attribution and responsible use
 
-Do not commit API keys or local `.env` files. Before redistributing raw third-party job-advert content publicly, review the applicable API/provider terms. The public portfolio version can rely on processed analytical outputs rather than raw API responses.
+Vacancy and salary data used in this project are sourced from **[The Adzuna API](https://www.adzuna.co.uk/)**. The public portfolio dashboard presents aggregate research outputs rather than republishing individual job adverts.
+
+The project is intended as a personal portfolio/research project. Adzuna's API terms should be reviewed before any different, ongoing organisational, commercial, or large-scale use. API credentials are private and must never be committed to GitHub. Local credentials belong in `.env`; cloud credentials should be stored using the deployment platform's secrets mechanism.
+
+The project also uses ONS reference data for supporting labour-market context. ONS and Adzuna are separate sources with different methodologies and should not be described as a single dataset.

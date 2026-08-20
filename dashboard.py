@@ -378,6 +378,16 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+st.markdown(
+    """
+    <div class="soft-note" style="margin:-0.7rem 0 1.1rem 0;">
+        Vacancy and salary data source: <a href="https://www.adzuna.co.uk/" target="_blank"><strong>The Adzuna API</strong></a>.
+        This portfolio dashboard presents aggregate research outputs rather than republishing individual job adverts.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 # =========================================================
 # SIDEBAR — TIME FILTER
@@ -1239,85 +1249,71 @@ st.caption(
 
 
 # =========================================================
-# JOB EXPLORER
+# AGGREGATE DATA COVERAGE
 # =========================================================
 
 st.divider()
-st.subheader("Job explorer")
+st.subheader("Aggregate data coverage")
 
-display_df = filtered_df.copy()
+st.markdown(
+    """
+    <div class="soft-note">
+        The public portfolio version intentionally does not republish individual job adverts.
+        The table below summarises the filtered market at role level. Vacancy and salary data are sourced from
+        <a href="https://www.adzuna.co.uk/" target="_blank"><strong>The Adzuna API</strong></a>.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
-for column in [
-    "contract_type",
-    "contract_time",
-]:
-    if column in display_df.columns:
-        display_df[column] = (
-            display_df[column]
-            .apply(
-                friendly_text
-            )
-        )
-
-if "salary_annual" in display_df.columns:
-    display_df[
-        "salary_annual"
-    ] = (
-        display_df[
-            "salary_annual"
-        ]
-        .round(0)
+coverage = (
+    filtered_df
+    .groupby(["role_family", "standard_role"], dropna=False)
+    .agg(
+        job_adverts=("job_id", "nunique"),
+        hiring_companies=("company", "nunique"),
+        median_salary=("salary_annual", "median"),
+        entry_junior=(
+            "seniority",
+            lambda values: values.isin(["Entry / Graduate", "Junior"]).sum(),
+        ),
     )
+    .reset_index()
+)
 
-job_columns = [
-    "raw_title",
-    "company",
-    "standard_role",
-    "role_family",
-    "seniority",
-    "salary_annual",
-    "created",
-    "contract_type",
-    "contract_time",
-]
+coverage["entry_junior_share"] = (
+    coverage["entry_junior"]
+    / coverage["job_adverts"]
+    * 100
+)
 
-job_columns = [
-    column
-    for column in job_columns
-    if column in display_df.columns
-]
+coverage = coverage.sort_values(
+    ["job_adverts", "median_salary"],
+    ascending=[False, False],
+)
 
 st.dataframe(
-    display_df[
-        job_columns
-    ],
+    coverage,
     width="stretch",
     hide_index=True,
     column_config={
-        "raw_title":
-            "Job title",
-        "company":
-            "Company",
-        "standard_role":
-            "Standard role",
-        "role_family":
-            "Role family",
-        "seniority":
-            "Seniority",
-        "salary_annual":
-            st.column_config.NumberColumn(
-                "Annual salary",
-                format="£%.0f",
-            ),
-        "created":
-            st.column_config.DatetimeColumn(
-                "Posted",
-                format="DD MMM YYYY",
-            ),
-        "contract_type":
-            "Contract",
-        "contract_time":
-            "Working pattern",
+        "role_family": "Role family",
+        "standard_role": "Standard role",
+        "job_adverts": st.column_config.NumberColumn(
+            "Job adverts", format="%d"
+        ),
+        "hiring_companies": st.column_config.NumberColumn(
+            "Hiring companies", format="%d"
+        ),
+        "median_salary": st.column_config.NumberColumn(
+            "Median annual salary", format="£%.0f"
+        ),
+        "entry_junior": st.column_config.NumberColumn(
+            "Entry / junior adverts", format="%d"
+        ),
+        "entry_junior_share": st.column_config.NumberColumn(
+            "Entry / junior share", format="%.1f%%"
+        ),
     },
 )
 
@@ -1342,7 +1338,9 @@ with st.expander(
 
         **Current market source**
 
-        London technology adverts are collected through the Adzuna API.
+        Vacancy and salary data are sourced from **[The Adzuna API](https://www.adzuna.co.uk/)**.
+        The public portfolio dashboard presents aggregate research outputs and does not
+        republish individual job adverts.
 
         **Salary handling**
 
@@ -1366,5 +1364,6 @@ with st.expander(
 st.caption(
     f"London Tech Job Market Analyzer · "
     f"{len(df):,} adverts in available history · "
-    f"{len(filtered_df):,} currently displayed"
+    f"{len(filtered_df):,} currently displayed · "
+    "Vacancy and salary data: The Adzuna API"
 )
